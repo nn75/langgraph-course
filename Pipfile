@@ -1,17 +1,18 @@
 [[source]]
-url = "https://artlab.alibaba-inc.com/1/pypi/simple"
+url = "https://mirrors.aliyun.com/pypi/simple/"
 verify_ssl = true
 name = "pip_conf_index_global"
 
 [packages]
 langchain = "*"
 langchain-openai = "*"
-black = "*"
 python-dotenv = "*"
 langchain-tavily = "*"
 langgraph = "*"
 isort = "*"
 openai = "*"
+black = "*"
+langchain-ollama = "*"
 
 [dev-packages]
 
