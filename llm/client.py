@@ -3,6 +3,7 @@ import os
 from langchain_openai import ChatOpenAI
 import openai
 
+
 def get_qwen_client(model):
     api_key = os.environ["QWEN_API_KEY"]
     base_url = "https://maas-api.alibaba-inc.com/v1"

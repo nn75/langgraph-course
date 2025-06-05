@@ -19,5 +19,3 @@ def triple(num: float) -> float:
 
 tools = [TavilySearch(max_results=1), triple]
 llm = get_qwen_client("qwen-max").bind_tools(tools)
-
-
