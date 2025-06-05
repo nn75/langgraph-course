@@ -11,6 +11,7 @@ python-dotenv = "*"
 langchain-tavily = "*"
 langgraph = "*"
 isort = "*"
+openai = "*"
 
 [dev-packages]
 
