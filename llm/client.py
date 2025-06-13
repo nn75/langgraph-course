@@ -39,4 +39,5 @@ def get_qwen_client(model_name):
 
 if __name__ == "__main__":
     response = get_qwen_client("qwen-max").invoke("你好，你是谁？")
+    # response = get_async_qwen_client("qwen-max").invoke("你好，你是谁？")
     print(response)
